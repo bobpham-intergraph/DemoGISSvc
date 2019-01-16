@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongodbConnect", "MongodbConnect\MongodbConnect.csproj", "{AD0DE14A-2C44-4DCE-9424-B4BD5AF348B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GisWebApiDev_20170514", "GisWebApiDev_20170514\GisWebApiDev_20170514.csproj", "{61714150-E1C5-41E5-BB24-2CF656EB0441}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD0DE14A-2C44-4DCE-9424-B4BD5AF348B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0DE14A-2C44-4DCE-9424-B4BD5AF348B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0DE14A-2C44-4DCE-9424-B4BD5AF348B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD0DE14A-2C44-4DCE-9424-B4BD5AF348B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61714150-E1C5-41E5-BB24-2CF656EB0441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61714150-E1C5-41E5-BB24-2CF656EB0441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61714150-E1C5-41E5-BB24-2CF656EB0441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61714150-E1C5-41E5-BB24-2CF656EB0441}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C6858B3-81D2-4B83-9AD8-27C492B83F2D}
+	EndGlobalSection
+EndGlobal
