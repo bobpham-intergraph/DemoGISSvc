@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="MongoDb-Web.config Connection String" description="MongoDb Connection String used in web.config by the application to access the database." defaultValue="mongodb://myuser:myuser@tdp-techground.info:27017/ccc_db" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="W:\\Workspace\\@git\\Azure\\_Repository\\DemoGISSvc\\GISWebApi_20170513\\GisWebApiDev_20170514\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MongoDb']/@connectionString" />
+  </parameter>
+</parameters>

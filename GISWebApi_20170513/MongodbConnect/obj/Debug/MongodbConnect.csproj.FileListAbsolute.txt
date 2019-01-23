@@ -37,3 +37,17 @@ W:\Workspace\@git\@Ref_Projects\MyWebAPI_Project_20170110\MyGISApi\GISWebApi_201
 W:\Workspace\@git\@Ref_Projects\MyWebAPI_Project_20170110\MyGISApi\GISWebApi_20170513\MongodbConnect\obj\Debug\MongodbConnect.dll
 W:\Workspace\@git\@Ref_Projects\MyWebAPI_Project_20170110\MyGISApi\GISWebApi_20170513\MongodbConnect\obj\Debug\MongodbConnect.pdb
 W:\Workspace\@git\@Ref_Projects\MyWebAPI_Project_20170110\MyGISApi\GISWebApi_20170513\MongodbConnect\obj\Debug\MongodbConnect.csprojAssemblyReference.cache
+W:\Workspace\@git\Azure\_Repository\DemoGISSvc\GISWebApi_20170513\MongodbConnect\bin\Debug\MongodbConnect.dll
+W:\Workspace\@git\Azure\_Repository\DemoGISSvc\GISWebApi_20170513\MongodbConnect\bin\Debug\MongodbConnect.pdb
+W:\Workspace\@git\Azure\_Repository\DemoGISSvc\GISWebApi_20170513\MongodbConnect\bin\Debug\MongoDB.Bson.dll
+W:\Workspace\@git\Azure\_Repository\DemoGISSvc\GISWebApi_20170513\MongodbConnect\bin\Debug\MongoDB.Driver.Core.dll
+W:\Workspace\@git\Azure\_Repository\DemoGISSvc\GISWebApi_20170513\MongodbConnect\bin\Debug\MongoDB.Driver.dll
+W:\Workspace\@git\Azure\_Repository\DemoGISSvc\GISWebApi_20170513\MongodbConnect\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+W:\Workspace\@git\Azure\_Repository\DemoGISSvc\GISWebApi_20170513\MongodbConnect\bin\Debug\MongoDB.Bson.xml
+W:\Workspace\@git\Azure\_Repository\DemoGISSvc\GISWebApi_20170513\MongodbConnect\bin\Debug\MongoDB.Driver.xml
+W:\Workspace\@git\Azure\_Repository\DemoGISSvc\GISWebApi_20170513\MongodbConnect\bin\Debug\MongoDB.Driver.Core.xml
+W:\Workspace\@git\Azure\_Repository\DemoGISSvc\GISWebApi_20170513\MongodbConnect\obj\Debug\MongodbConnect.csprojAssemblyReference.cache
+W:\Workspace\@git\Azure\_Repository\DemoGISSvc\GISWebApi_20170513\MongodbConnect\obj\Debug\MongodbConnect.csproj.CoreCompileInputs.cache
+W:\Workspace\@git\Azure\_Repository\DemoGISSvc\GISWebApi_20170513\MongodbConnect\obj\Debug\MongodbConnect.csproj.CopyComplete
+W:\Workspace\@git\Azure\_Repository\DemoGISSvc\GISWebApi_20170513\MongodbConnect\obj\Debug\MongodbConnect.dll
+W:\Workspace\@git\Azure\_Repository\DemoGISSvc\GISWebApi_20170513\MongodbConnect\obj\Debug\MongodbConnect.pdb
