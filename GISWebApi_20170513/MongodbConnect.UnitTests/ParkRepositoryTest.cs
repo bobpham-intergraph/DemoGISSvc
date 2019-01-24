@@ -32,7 +32,7 @@ namespace MongodbConnect.UnitTests
             int totalUpperCase = _parkRepository.FindParkByName(parkName.ToUpper()).Count();
 
 
-            Assert.Equals(total, totalUpperCase);
+            Assert.AreEqual<int>(total, totalUpperCase);
 
         }
 
