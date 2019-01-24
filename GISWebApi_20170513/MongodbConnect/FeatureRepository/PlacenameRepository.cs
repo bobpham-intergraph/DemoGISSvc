@@ -14,18 +14,17 @@ using MongodbConnect.Repository;
 namespace MongodbConnect.FeatureRepository
 {
    public class PlacenameRepository : BaseMongoRepository<PlacenameDocument>
-   {
-        private const string CollectionName = "place_names";
-
+   {        
         private readonly MongoDbContext _dataContext;
 
-        public PlacenameRepository(MongoDbContext dataContext)
+        public PlacenameRepository(MongoDbContext dataContext, string connectionName)
         {
             _dataContext = dataContext;
+            _connectionName = connectionName;
         }
 
         protected override IMongoCollection<PlacenameDocument> Collection =>
-            _dataContext.Database.GetCollection<PlacenameDocument>(CollectionName);
+            _dataContext.Database.GetCollection<PlacenameDocument>(_connectionName);
 
 
         public virtual IMongoQueryable<PlacenameDocument> FindPlacenameByName(string phrase)

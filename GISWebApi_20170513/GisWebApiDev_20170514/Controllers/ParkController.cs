@@ -16,7 +16,8 @@ namespace GisWebApiDev_20170514.Controllers
         private ParkRepository _parkRepository;
         public ParkController()
         {
-            _parkRepository = new ParkRepository(DbContext);
+            string collectionName = ConfigurationManager.AppSettings["ParkCollection"].ToString();
+            _parkRepository = new ParkRepository(DbContext, collectionName);
         }
 
         [HttpGet]

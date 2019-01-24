@@ -16,6 +16,8 @@ namespace MongodbConnect.Repository
     {
         protected abstract IMongoCollection<TEntity> Collection { get; }
 
+        protected string _connectionName { get; set; }
+
         public virtual async Task<TEntity> GetByIdAsync(string inputId)
         {
             ObjectId inputIDObj = new ObjectId(inputId);

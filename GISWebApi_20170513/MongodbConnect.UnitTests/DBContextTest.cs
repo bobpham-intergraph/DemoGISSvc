@@ -5,6 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MongoDB.Driver;
 using MongodbConnect.Repository;
 using MongodbConnect.Models.Park;
+using MongoDB.Bson;
 
 namespace MongodbConnect.UnitTests
 {
@@ -29,8 +30,15 @@ namespace MongodbConnect.UnitTests
         public void TestDatabaaseParkCollection()
         {
 
-            IMongoCollection<ParkDocument>  _parkCollection = _dbcontext.Database.GetCollection<ParkDocument>("parks");
-            Assert.IsNotNull(_parkCollection);   
+            IMongoCollection<ParkDocument>  _parkCollection = _dbcontext.Database.GetCollection<ParkDocument>("parks_test");
+
+            Assert.IsNotNull(_parkCollection);
+
+            long count = _parkCollection.CountDocuments(new BsonDocument());
+
+            Assert.AreEqual(count, 1079);
         }
+
+       
     }
 }

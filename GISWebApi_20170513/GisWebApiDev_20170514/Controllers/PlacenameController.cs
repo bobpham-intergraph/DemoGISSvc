@@ -17,7 +17,8 @@ namespace GisWebApiDev_20170514.Controllers
         private PlacenameRepository _placenameRepository;
         public PlacenameController()
         {
-            _placenameRepository = new PlacenameRepository(DbContext);
+            string collectionName = ConfigurationManager.AppSettings["PlaceNameCollection"].ToString();
+            _placenameRepository = new PlacenameRepository(DbContext, collectionName);
         }
 
         [HttpGet]
