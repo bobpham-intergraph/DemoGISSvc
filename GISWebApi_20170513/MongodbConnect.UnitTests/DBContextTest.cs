@@ -27,16 +27,13 @@ namespace MongodbConnect.UnitTests
 
         }
         [TestMethod]
-        public void TestDatabaaseParkCollection()
+        public void TestDatabaseParkCollection()
         {
 
             IMongoCollection<ParkDocument>  _parkCollection = _dbcontext.Database.GetCollection<ParkDocument>("parks_test");
 
             Assert.IsNotNull(_parkCollection);
-
-            long count = _parkCollection.CountDocuments(new BsonDocument());
-
-            Assert.AreEqual(count, 1079);
+                        
         }
 
        
